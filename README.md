@@ -5,6 +5,8 @@ This project is a social media analytics platform with key features including us
 ## Instalation
 
 ```bash
+git clone git@github.com:YuriiVataschuk/starnavi_test_task.git
+cd starnavi_test_task
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -14,12 +16,12 @@ python manage.py start_bot
 ## Endpoints
 
 - /api/api/posts/ (GET) - get all posts
-- /api/apiposts/id_number/ (GET) - get a single post by id
+- /api/api/posts/id_number/ - get a single post by id
 - /api/api/posts/id_number/like (POST) - like or unlike a post by id
 - /api/api/posts/ (POST) - create a new post
-- /api/user/register/ (POST) - registration endpoint
-- /api/user/token/ (POST) - authentication for getting token by username and password
+- /api/user/register/ - registration endpoint
+- /api/user/token/ - authentication for getting token by username and password
 - /api/user/token/refresh/ - refresh token
 - /api/user/token/verify/ - verify token
-- /api/analytics/?date_from=2021-02-02&date_to=2021-11-10 (GET) - analytics about how many likes were made. API return analytics aggregated by day. date_from is the required parameter.
+- /api/analytics/?date_from=2021-02-02&date_to=2021-11-10 - analytics about how many likes were made. API return analytics aggregated by day.
 - /api/analitic/users/ - analytics about users' last requests and last logins
