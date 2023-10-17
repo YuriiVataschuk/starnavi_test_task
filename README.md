@@ -1,6 +1,6 @@
 ## Description
 
-This project is a social media analytics platform with key features including user registration, post creation, post liking, and user activity tracking. The system is powered by Django and uses token authentication (preferably JWT) for user access control. Users can sign up, create posts, like and unlike posts, and view analytics on the number of likes made during a specified date range. Additionally, the platform keeps track of user activity by recording login and request times. An automated bot simulates user interactions based on a configuration file, including user signups, posting, and liking posts.
+This project is a social media analytics platform with key features including user registration, post creation, post liking, and user activity tracking. The system is powered by Django and uses token authentication (JWT) for user access control. Users can sign up, create posts, like and unlike posts, and view analytics on the number of likes made during a specified date range. Additionally, the platform keeps track of user activity by recording login and request times. An automated bot simulates user interactions based on a configuration file, including user signups, posting, and liking posts.
 
 ## Instalation
 
